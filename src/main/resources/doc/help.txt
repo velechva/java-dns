@@ -1,0 +1,11 @@
+1. Query a DNS server
+
+Syntax: jns query <hostname> [<hostname>...]
+
+Ex. jns query www.google.com www.example.com
+
+Flags:
+	dnsport:  port to use for dns call (default: 53)
+	dnshost:  dns server host to use for dns call (default: 8.8.8.8)
+	authonly: 'true' to only allow authoritative answers (default: 'false')
+	verbose:  more logging
